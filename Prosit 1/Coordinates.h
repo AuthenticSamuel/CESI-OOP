@@ -1,3 +1,4 @@
+#pragma once
 #ifndef DEF_COORDINATES
 #define DEF_COORDINATES
 
