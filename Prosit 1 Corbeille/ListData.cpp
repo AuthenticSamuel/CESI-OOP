@@ -31,7 +31,7 @@ int ListData::dataSum() {
 
 }
 
-float ListData::dataAvg() {
+double ListData::dataAvg() {
 
 	return dataSum() / data.size();
 

@@ -10,7 +10,7 @@ public:
 	void dataRead() const;
 	int dataNum() const;
 	int dataSum();
-	float dataAvg();
+	double dataAvg();
 	int dataMin();
 	int dataMax();
 	int dataMaxVar(); // variationMax();
