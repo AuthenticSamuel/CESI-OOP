@@ -6,6 +6,8 @@
 class ListData {
 
 public:
+	ListData();
+	ListData(int x);
 	void dataAdd(int x);
 	void dataRead() const;
 	int dataNum() const;

@@ -4,6 +4,11 @@
 using namespace std;
 
 // Public
+
+ListData::ListData() {}
+
+ListData::ListData(int x) { dataAdd(x); }
+
 void ListData::dataAdd(int x) {
 
 	if (data.size() > 1023) cout << "Trop de valeurs dans la liste." << endl;
