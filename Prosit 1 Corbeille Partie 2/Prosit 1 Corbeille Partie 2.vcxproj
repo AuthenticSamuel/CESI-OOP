@@ -140,9 +140,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="CLa.h" />
+    <ClInclude Include="CLobjet.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CLa.cpp" />
+    <ClCompile Include="CLobjet.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
