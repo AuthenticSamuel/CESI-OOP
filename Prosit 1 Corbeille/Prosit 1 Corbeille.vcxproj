@@ -24,6 +24,7 @@
     <ProjectGuid>{ec48a496-c3f9-40df-af55-570aaea47f2c}</ProjectGuid>
     <RootNamespace>Prosit1Corbeille</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Prosit 1 Corbeille Partie 1</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
