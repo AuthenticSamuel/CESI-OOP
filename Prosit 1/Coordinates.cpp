@@ -5,7 +5,7 @@
 using namespace std;
 
 
-// public
+// Public
 void Coordinates::pointAdd(int x, int y) {
 
 	m_xlist.push_back(x);
@@ -115,7 +115,7 @@ void Coordinates::listReset() {
 }
 
 
-// private
+// Private
 float Coordinates::getDistance(int index) {
 
 	return sqrt(pow(m_xlist[index] - m_xlist[index - 1], 2) + pow(m_ylist[index] - m_ylist[index - 1], 2));
