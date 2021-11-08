@@ -7,19 +7,16 @@
 class EDFile
 {
 public:
-	EDFile(std::string sourceFileName, std::string destinationFileName);
+	EDFile(std::string fileName);
 	std::string read();
 	void write(std::string fileContent);
-	void encrypt();
-	void decrypt();
+	void crypt();
 
 private:
-	std::ifstream m_srcFile;
-	std::ofstream m_destFile;
-	std::string m_srcFileName;
-	std::string m_destFileName;
-	std::string cesar(std::string fileContent);
-	std::string xOR(std::string fileContent);
+	std::fstream m_file;
+	std::string m_fileName;
+	std::string cesar(std::string fileContent, int mode);
+	std::string xOR(std::string fileContent, int mode);
 
 };
 
