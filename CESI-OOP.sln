@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Prosit 1 Corbeille Partie 2
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Prosit 2 Corbeille", "Prosit 2 Corbeille\Prosit 2 Corbeille.vcxproj", "{F196A4A2-2C2F-4B6B-ABF1-1F1BA270AF7F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Prosit 2 Workshop", "Prosit 2 Workshop\Prosit 2 Workshop.vcxproj", "{7F7F1531-97DA-4610-9514-E887420058E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{F196A4A2-2C2F-4B6B-ABF1-1F1BA270AF7F}.Release|x64.Build.0 = Release|x64
 		{F196A4A2-2C2F-4B6B-ABF1-1F1BA270AF7F}.Release|x86.ActiveCfg = Release|Win32
 		{F196A4A2-2C2F-4B6B-ABF1-1F1BA270AF7F}.Release|x86.Build.0 = Release|Win32
+		{7F7F1531-97DA-4610-9514-E887420058E9}.Debug|x64.ActiveCfg = Debug|x64
+		{7F7F1531-97DA-4610-9514-E887420058E9}.Debug|x64.Build.0 = Debug|x64
+		{7F7F1531-97DA-4610-9514-E887420058E9}.Debug|x86.ActiveCfg = Debug|Win32
+		{7F7F1531-97DA-4610-9514-E887420058E9}.Debug|x86.Build.0 = Debug|Win32
+		{7F7F1531-97DA-4610-9514-E887420058E9}.Release|x64.ActiveCfg = Release|x64
+		{7F7F1531-97DA-4610-9514-E887420058E9}.Release|x64.Build.0 = Release|x64
+		{7F7F1531-97DA-4610-9514-E887420058E9}.Release|x86.ActiveCfg = Release|Win32
+		{7F7F1531-97DA-4610-9514-E887420058E9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
