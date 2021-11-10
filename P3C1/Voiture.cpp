@@ -1,12 +1,12 @@
 #include "Voiture.h"
 using namespace std;
 
-Voiture::Voiture()
+Voiture::Voiture() : m_vitesse(0), m_vitesseMax(1), m_acceleration(0), m_nombreObjets(0)
 {
-	
+	m_nombreObjets++;
 }
 
-Voiture::Voiture(int vitesse, int vitesseMax, double acceleration) : m_vitesse(vitesse), m_vitesseMax(vitesseMax), m_acceleration(acceleration)
+Voiture::Voiture(int vitesseMax, double acceleration) : m_vitesse(0), m_vitesseMax(vitesseMax), m_acceleration(acceleration), m_nombreObjets(0)
 {
-
+	m_nombreObjets++;
 }

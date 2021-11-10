@@ -16,7 +16,6 @@ private:
 	std::vector<Point2D> m_points;
 
 };
-
 class Parcours3D
 {
 public:

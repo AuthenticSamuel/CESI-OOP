@@ -13,7 +13,6 @@ void Parcours2D::add(Point2D point)
 {
 	m_points.push_back(point);
 }
-
 void Parcours3D::add(Point3D point)
 {
 	m_points.push_back(point);
@@ -35,7 +34,6 @@ double Parcours2D::distance()
 	}
 	return distance;
 }
-
 double Parcours3D::distance()
 {
 	double distance(0);

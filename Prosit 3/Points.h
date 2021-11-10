@@ -18,7 +18,6 @@ private:
 	int m_y;
 
 };
-
 class Point3D
 {
 public:

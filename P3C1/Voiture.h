@@ -6,12 +6,15 @@ class Voiture
 {
 public:
 	Voiture();
-	Voiture(int vitesse, int vitesseMax, double acceleration);
+	Voiture(int vitesseMax, double acceleration);
 
 protected:
 	int m_vitesse;
 	int m_vitesseMax;
 	double m_acceleration;
+
+private:
+	int m_nombreObjets;
 
 };
 
